@@ -3,9 +3,9 @@ import cors from "cors";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 
-import { userRouter } from "./src/routes/users.js"; 
-import { recipesRouter } from "./src/routes/recipes.js";
-import { adminRouter } from "./src/routes/admin.js";
+import { userRouter } from "./routes/users.js"; 
+import { recipesRouter } from "./routes/recipes.js";
+import { adminRouter } from "./routes/admin.js";
 const app = express();
 
 dotenv.config({ path: `./config.env` });
